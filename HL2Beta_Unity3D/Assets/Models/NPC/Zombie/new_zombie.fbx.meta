@@ -1,0 +1,1660 @@
+fileFormatVersion: 2
+guid: 706036b003ffa9942a70b117be42a07a
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Zombie_Classic_sheet.bmp
+    second: {fileID: 2100000, guid: ee97ac7fe3ee32b4892c480e0ab330e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: headcrabsheet.bmp
+    second: {fileID: 2100000, guid: 101a14cd73a4fef4f8714cfec55e6d22, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'zombie.qc_skeleton.001|attack1' has import
+      animation warnings that might lower retargeting quality:\n\t'Bip01 Spine3'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'zombie.qc_skeleton.001|attack1.001' has import animation warnings that might
+      lower retargeting quality:\n\t'Bip01 Spine3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'zombie.qc_skeleton.001|attack2'
+      has import animation warnings that might lower retargeting quality:\n\t'Bip01
+      Spine3' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\nClip 'zombie.qc_skeleton.001|attack2.001' has import animation
+      warnings that might lower retargeting quality:\n\t'Bip01 Spine3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'zombie.qc_skeleton.001|bigflinch' has import animation warnings that might
+      lower retargeting quality:\n\t'Bip01 Spine3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'zombie.qc_skeleton.001|bigflinch.001'
+      has import animation warnings that might lower retargeting quality:\n\t'Bip01
+      Spine3' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\nClip 'zombie.qc_skeleton.001|bust_window' has import animation
+      warnings that might lower retargeting quality:\n\t'Bip01 Spine3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'zombie.qc_skeleton.001|bust_window.001' has import animation warnings that
+      might lower retargeting quality:\n\t'Bip01 Spine3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'zombie.qc_skeleton.001|diebackward'
+      has import animation warnings that might lower retargeting quality:\n\t'Bip01
+      Spine3' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\nClip 'zombie.qc_skeleton.001|diebackward.001' has import animation
+      warnings that might lower retargeting quality:\n\t'Bip01 Spine3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'zombie.qc_skeleton.001|eatbody' has import animation warnings that might lower
+      retargeting quality:\n\t'Bip01 Spine3' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\nClip 'zombie.qc_skeleton.001|eatbody.001'
+      has import animation warnings that might lower retargeting quality:\n\t'Bip01
+      Spine3' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\nClip 'zombie.qc_skeleton.001|eatbodystand' has import animation
+      warnings that might lower retargeting quality:\n\t'Bip01 Spine3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'zombie.qc_skeleton.001|eatbodystand.001' has import animation warnings that
+      might lower retargeting quality:\n\t'Bip01 Spine3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'zombie.qc_skeleton.001|flinch'
+      has import animation warnings that might lower retargeting quality:\n\t'Bip01
+      Spine3' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\nClip 'zombie.qc_skeleton.001|flinch.001' has import animation
+      warnings that might lower retargeting quality:\n\t'Bip01 Spine3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'zombie.qc_skeleton.001|flinchsmall' has import animation warnings that might
+      lower retargeting quality:\n\t'Bip01 Spine3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'zombie.qc_skeleton.001|flinchsmall.001'
+      has import animation warnings that might lower retargeting quality:\n\t'Bip01
+      Spine3' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\nClip 'zombie.qc_skeleton.001|freakdie' has import animation
+      warnings that might lower retargeting quality:\n\t'Bip01 Spine3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'zombie.qc_skeleton.001|freakdie.001' has import animation warnings that might
+      lower retargeting quality:\n\t'Bip01 Spine3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'zombie.qc_skeleton.001|haulzombie'
+      has import animation warnings that might lower retargeting quality:\n\t'Bip01
+      Spine3' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\nClip 'zombie.qc_skeleton.001|haulzombie.001' has import animation
+      warnings that might lower retargeting quality:\n\t'Bip01 Spine3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'zombie.qc_skeleton.001|idle1' has import animation warnings that might lower
+      retargeting quality:\n\t'Bip01 Spine3' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\nClip 'zombie.qc_skeleton.001|idle1.001'
+      has import animation warnings that might lower retargeting quality:\n\t'Bip01
+      Spine3' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\nClip 'zombie.qc_skeleton.001|idle1.002' has import animation
+      warnings that might lower retargeting quality:\n\t'Bip01 Spine3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'zombie.qc_skeleton.001|kick_punch_wall' has import animation warnings that
+      might lower retargeting quality:\n\t'Bip01 Spine3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'zombie.qc_skeleton.001|kick_punch_wall.001'
+      has import animation warnings that might lower retargeting quality:\n\t'Bip01
+      Spine3' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\nClip 'zombie.qc_skeleton.001|laflinch' has import animation
+      warnings that might lower retargeting quality:\n\t'Bip01 Spine3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'zombie.qc_skeleton.001|laflinch.001' has import animation warnings that might
+      lower retargeting quality:\n\t'Bip01 Spine3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'zombie.qc_skeleton.001|left_tug'
+      has import animation warnings that might lower retargeting quality:\n\t'Bip01
+      Spine3' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\nClip 'zombie.qc_skeleton.001|left_tug.001' has import animation
+      warnings that might lower retargeting quality:\n\t'Bip01 Spine3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'zombie.qc_skeleton.001|llflinch' has import animation warnings that might
+      lower retargeting quality:\n\t'Bip01 Spine3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'zombie.qc_skeleton.001|llflinch.001'
+      has import animation warnings that might lower retargeting quality:\n\t'Bip01
+      Spine3' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\nClip 'zombie.qc_skeleton.001|raflinch' has import animation
+      warnings that might lower retargeting quality:\n\t'Bip01 Spine3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'zombie.qc_skeleton.001|raflinch.001' has import animation warnings that might
+      lower retargeting quality:\n\t'Bip01 Spine3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'zombie.qc_skeleton.001|right_tug'
+      has import animation warnings that might lower retargeting quality:\n\t'Bip01
+      Spine3' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\nClip 'zombie.qc_skeleton.001|right_tug.001' has import animation
+      warnings that might lower retargeting quality:\n\t'Bip01 Spine3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'zombie.qc_skeleton.001|ripdoor' has import animation warnings that might lower
+      retargeting quality:\n\t'Bip01 Spine3' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\nClip 'zombie.qc_skeleton.001|ripdoor.001'
+      has import animation warnings that might lower retargeting quality:\n\t'Bip01
+      Spine3' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\nClip 'zombie.qc_skeleton.001|rlflinch' has import animation
+      warnings that might lower retargeting quality:\n\t'Bip01 Spine3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'zombie.qc_skeleton.001|rlflinch.001' has import animation warnings that might
+      lower retargeting quality:\n\t'Bip01 Spine3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'zombie.qc_skeleton.001|slidewall'
+      has import animation warnings that might lower retargeting quality:\n\t'Bip01
+      Spine3' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\nClip 'zombie.qc_skeleton.001|slidewall.001' has import animation
+      warnings that might lower retargeting quality:\n\t'Bip01 Spine3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'zombie.qc_skeleton.001|vent_c1a3' has import animation warnings that might
+      lower retargeting quality:\n\t'Bip01 Spine3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'zombie.qc_skeleton.001|vent_c1a3.001'
+      has import animation warnings that might lower retargeting quality:\n\t'Bip01
+      Spine3' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\nClip 'zombie.qc_skeleton.001|vent_zidle' has import animation
+      warnings that might lower retargeting quality:\n\t'Bip01 Spine3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'zombie.qc_skeleton.001|vent_zidle.001' has import animation warnings that
+      might lower retargeting quality:\n\t'Bip01 Spine3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'zombie.qc_skeleton.001|walk'
+      has import animation warnings that might lower retargeting quality:\n\t'Bip01
+      Spine3' is inbetween humanoid transforms and has rotation animation that will
+      be discarded.\n\nClip 'zombie.qc_skeleton.001|walk.001' has import animation
+      warnings that might lower retargeting quality:\n\t'Bip01 Spine3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: attack1
+      takeName: zombie.qc_skeleton.001|attack1
+      internalID: 2509072172613150648
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack2
+      takeName: zombie.qc_skeleton.001|attack2
+      internalID: -7973912796408856065
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bigflinch
+      takeName: zombie.qc_skeleton.001|bigflinch
+      internalID: -5664993840361951770
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death1
+      takeName: zombie.qc_skeleton.001|death1
+      internalID: 6894849547262001700
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death2
+      takeName: zombie.qc_skeleton.001|death3
+      internalID: 5201252743021545181
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death3
+      takeName: zombie.qc_skeleton.001|death4
+      internalID: -7161508639590113392
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death4
+      takeName: zombie.qc_skeleton.001|death5
+      internalID: 7754687248205404565
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death5
+      takeName: zombie.qc_skeleton.001|death6
+      internalID: 3321740503594025385
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: diebackward
+      takeName: zombie.qc_skeleton.001|diebackward
+      internalID: -2856134151764793079
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: dieforward
+      takeName: zombie.qc_skeleton.001|dieforward
+      internalID: -8523542069735570521
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: dieheadshot
+      takeName: zombie.qc_skeleton.001|dieheadshot2
+      internalID: -8907948746116476098
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: diesimple
+      takeName: zombie.qc_skeleton.001|diesimple
+      internalID: -7682435276250886198
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: eatbody
+      takeName: zombie.qc_skeleton.001|eatbody
+      internalID: -6649218832866093215
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: eatbodystand
+      takeName: zombie.qc_skeleton.001|eatbodystand
+      internalID: 3421875991137800896
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: flinch
+      takeName: zombie.qc_skeleton.001|flinch
+      internalID: -1927198080258786630
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: getup
+      takeName: zombie.qc_skeleton.001|getup
+      internalID: 667927520343365379
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: zombie.qc_skeleton.001|idle1.001
+      internalID: -8804997553526470045
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pause
+      takeName: zombie.qc_skeleton.001|pause
+      internalID: -1771783923832916178
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: slideidle
+      takeName: zombie.qc_skeleton.001|slideidle
+      internalID: 1131160782106480416
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: slidewall
+      takeName: zombie.qc_skeleton.001|slidewall
+      internalID: -3893480608694283798
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: turnleft
+      takeName: zombie.qc_skeleton.001|turnleft
+      internalID: -4135645649892392534
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: turnright
+      takeName: zombie.qc_skeleton.001|turnright
+      internalID: 6729698169482520864
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: zombie.qc_skeleton.001|walk
+      internalID: -1325572673732565889
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: crab
+        weight: 1
+      - path: slow
+        weight: 1
+      - path: zombie.qc_skeleton.001
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 L Thigh
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 L Thigh/Bip01 L Calf
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 L Thigh/Bip01 L Calf/Bip01
+          L Foot
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 L Thigh/Bip01 L Calf/Bip01
+          L Foot/Bip01 L Foot_end
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 R Thigh
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 R Thigh/Bip01 R Calf
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 R Thigh/Bip01 R Calf/Bip01
+          R Foot
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 R Thigh/Bip01 R Calf/Bip01
+          R Foot/Bip01 R Foot_end
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 Head
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 Head/Bip01 Head_end
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 L Clavicle
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01
+          L Forearm
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01
+          L Forearm/Bip01 L Hand
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01
+          L Forearm/Bip01 L Hand/Bip01 L Finger0
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01
+          L Forearm/Bip01 L Hand/Bip01 L Finger0/Bip01 L Finger01
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01
+          L Forearm/Bip01 L Hand/Bip01 L Finger0/Bip01 L Finger01/Bip01 L Finger02
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01
+          L Forearm/Bip01 L Hand/Bip01 L Finger0/Bip01 L Finger01/Bip01 L Finger02/Bip01
+          L Finger02_end
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01
+          L Forearm/Bip01 L Hand/Bip01 L Finger1
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01
+          L Forearm/Bip01 L Hand/Bip01 L Finger1/Bip01 L Finger1_end
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01
+          L Forearm/Bip01 L Hand/Bip01 L Finger2
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01
+          L Forearm/Bip01 L Hand/Bip01 L Finger2/Bip01 L Finger21
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01
+          L Forearm/Bip01 L Hand/Bip01 L Finger2/Bip01 L Finger21/Bip01 L Finger21_end
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01
+          L Forearm/Bip01 L Hand/Bip01 L Finger3
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01
+          L Forearm/Bip01 L Hand/Bip01 L Finger3/Bip01 L Finger31
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 L Clavicle/Bip01 L UpperArm/Bip01
+          L Forearm/Bip01 L Hand/Bip01 L Finger3/Bip01 L Finger31/Bip01 L Finger31_end
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 R Clavicle
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01
+          R Forearm
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01
+          R Forearm/Bip01 R Hand
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01
+          R Forearm/Bip01 R Hand/Bip01 R Finger0
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01
+          R Forearm/Bip01 R Hand/Bip01 R Finger0/Bip01 R Finger01
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01
+          R Forearm/Bip01 R Hand/Bip01 R Finger0/Bip01 R Finger01/Bip01 R Finger02
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01
+          R Forearm/Bip01 R Hand/Bip01 R Finger0/Bip01 R Finger01/Bip01 R Finger02/Bip01
+          R Finger02_end
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01
+          R Forearm/Bip01 R Hand/Bip01 R Finger1
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01
+          R Forearm/Bip01 R Hand/Bip01 R Finger1/Bip01 R Finger11
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01
+          R Forearm/Bip01 R Hand/Bip01 R Finger1/Bip01 R Finger11/Bip01 R Finger11_end
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01
+          R Forearm/Bip01 R Hand/Bip01 R Finger2
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01
+          R Forearm/Bip01 R Hand/Bip01 R Finger2/Bip01 R Finger21
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01
+          R Forearm/Bip01 R Hand/Bip01 R Finger2/Bip01 R Finger21/Bip01 R Finger21_end
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01
+          R Forearm/Bip01 R Hand/Bip01 R Finger3
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01
+          R Forearm/Bip01 R Hand/Bip01 R Finger3/Bip01 R Finger31
+        weight: 1
+      - path: zombie.qc_skeleton.001/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Spine1/Bip01
+          Spine2/Bip01 Spine3/Bip01 Neck/Bip01 R Clavicle/Bip01 R UpperArm/Bip01
+          R Forearm/Bip01 R Hand/Bip01 R Finger3/Bip01 R Finger31/Bip01 R Finger31_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.03
+    meshCompression: 3
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Bip01 Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Finger0
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Finger01
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Finger02
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Finger1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Finger2
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Finger21
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Finger3
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 L Finger31
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Finger0
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Finger01
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Finger02
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Finger1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Finger11
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Finger2
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Finger21
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Finger3
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 R Finger31
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip01 Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: new_zombie(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.00023743158, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: slow
+      parentName: new_zombie(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: crab
+      parentName: new_zombie(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: zombie.qc_skeleton.001
+      parentName: new_zombie(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Bip01
+      parentName: zombie.qc_skeleton.001
+      position: {x: -0.00017630309, y: 0.0010017087, z: 0.01066451}
+      rotation: {x: -0.000000029802322, y: -0.000000029802322, z: 0.70710635, w: 0.7071073}
+      scale: {x: 0.9999998, y: 0.99999976, z: 1.0000001}
+    - name: Bip01 Pelvis
+      parentName: Bip01
+      position: {x: 0.000024692634, y: -0.00017581556, z: -0.0000000018029591}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: -0.5}
+      scale: {x: 1.0000004, y: 1, z: 1.0000005}
+    - name: Bip01 L Thigh
+      parentName: Bip01 Pelvis
+      position: {x: 0.0000000019173794, y: 0.0000000024886697, z: 0.0013513768}
+      rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+      scale: {x: 0.9999997, y: 0.99999976, z: 0.99999994}
+    - name: Bip01 L Calf
+      parentName: Bip01 L Thigh
+      position: {x: -0.0054553826, y: -3.961846e-10, z: -1.4919785e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000006}
+    - name: Bip01 L Foot
+      parentName: Bip01 L Calf
+      position: {x: -0.0050586276, y: -4.135072e-11, z: -4.3320464e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000002}
+    - name: Bip01 L Foot_end
+      parentName: Bip01 L Foot
+      position: {x: -0, y: 0.000057744503, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01 R Thigh
+      parentName: Bip01 Pelvis
+      position: {x: -0.0000000015157835, y: -0.0000000013860479, z: -0.0013513771}
+      rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+      scale: {x: 0.99999964, y: 1, z: 1}
+    - name: Bip01 R Calf
+      parentName: Bip01 R Thigh
+      position: {x: -0.005455384, y: 6.6161154e-10, z: 0.000000001940131}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000007, y: 1.0000004, z: 1.0000004}
+    - name: Bip01 R Foot
+      parentName: Bip01 R Calf
+      position: {x: -0.005058629, y: 6.4373007e-10, z: -6.6161154e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: Bip01 R Foot_end
+      parentName: Bip01 R Foot
+      position: {x: -0, y: 0.000057744503, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01 Spine
+      parentName: Bip01 Pelvis
+      position: {x: -0.00047298314, y: -0.0000011975688, z: 6.19226e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000004}
+    - name: Bip01 Spine1
+      parentName: Bip01 Spine
+      position: {x: -0.0015046387, y: -0.0000011520154, z: 5.5879346e-13}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1}
+    - name: Bip01 Spine2
+      parentName: Bip01 Spine1
+      position: {x: -0.0014468066, y: -0.0000011514711, z: -1.4668331e-12}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000008, y: 1.0000012, z: 1.0000011}
+    - name: Bip01 Spine3
+      parentName: Bip01 Spine2
+      position: {x: -0.0014467674, y: -0.0000014053524, z: 3.618188e-11}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999997, y: 0.9999996, z: 1}
+    - name: Bip01 Neck
+      parentName: Bip01 Spine3
+      position: {x: -0.001765034, y: -0.00000044224038, z: 8.242203e-12}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 0.99999946, z: 0.99999946}
+    - name: Bip01 L Clavicle
+      parentName: Bip01 Neck
+      position: {x: -0.00029665354, y: 0.000005423998, z: 0.0010254566}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: -0.7071068, w: 0.000000030908623}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: Bip01 L UpperArm
+      parentName: Bip01 L Clavicle
+      position: {x: -0.0015914451, y: 7.152556e-11, z: 7.476657e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999976, y: 1.0000001, z: 0.9999998}
+    - name: Bip01 L Forearm
+      parentName: Bip01 L UpperArm
+      position: {x: -0.0056122094, y: 0.0000000020027158, z: -0.0000000022172926}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1.0000011, z: 1.0000004}
+    - name: Bip01 L Hand
+      parentName: Bip01 L Forearm
+      position: {x: -0.0041854978, y: -9.2089164e-10, z: -6.794929e-10}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: -0.7071068}
+      scale: {x: 1.0000007, y: 1.000001, z: 1.000001}
+    - name: Bip01 L Finger0
+      parentName: Bip01 L Hand
+      position: {x: 0.00018616933, y: 0.0000977917, z: -0.00047777567}
+      rotation: {x: 0, y: 0.3826835, z: 0, w: -0.9238795}
+      scale: {x: 1.0000002, y: 0.9999997, z: 0.99999994}
+    - name: Bip01 L Finger01
+      parentName: Bip01 L Finger0
+      position: {x: -0.0010712718, y: 4.291534e-10, z: -0.0000000012159347}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000008, y: 1.0000002, z: 0.99999994}
+    - name: Bip01 L Finger02
+      parentName: Bip01 L Finger01
+      position: {x: -0.0008337681, y: -0.000000001426041, z: 0.0000000013232231}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1.0000002}
+    - name: Bip01 L Finger02_end
+      parentName: Bip01 L Finger02
+      position: {x: -0, y: 0.000057744517, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01 L Finger1
+      parentName: Bip01 L Hand
+      position: {x: -0.0015739892, y: 0.000010445865, z: -0.00075519946}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999976, y: 0.9999996, z: 0.9999999}
+    - name: Bip01 L Finger1_end
+      parentName: Bip01 L Finger1
+      position: {x: -0, y: 0.000057744484, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01 L Finger2
+      parentName: Bip01 L Hand
+      position: {x: -0.0016810724, y: -0.00002632592, z: -0.00010321581}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 0.9999994, z: 1.0000004}
+    - name: Bip01 L Finger21
+      parentName: Bip01 L Finger2
+      position: {x: -0.0014786362, y: -0.0000000010013579, z: -7.867813e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999993, y: 1.0000006, z: 0.9999999}
+    - name: Bip01 L Finger21_end
+      parentName: Bip01 L Finger21
+      position: {x: -0, y: 0.000057744444, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01 L Finger3
+      parentName: Bip01 L Hand
+      position: {x: -0.0016302207, y: -0.000003242115, z: 0.00049086986}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999992, y: 1, z: 1.0000005}
+    - name: Bip01 L Finger31
+      parentName: Bip01 L Finger3
+      position: {x: -0.0014563538, y: -0.0000000018596649, z: -1.4305113e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999993, y: 1.000001, z: 1.0000001}
+    - name: Bip01 L Finger31_end
+      parentName: Bip01 L Finger31
+      position: {x: -0, y: 0.000057744488, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01 R Clavicle
+      parentName: Bip01 Neck
+      position: {x: -7.4598924e-11, y: 0.00000044580105, z: -0.0010254566}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: 0.7071068, w: -0.000000030908623}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000002}
+    - name: Bip01 R UpperArm
+      parentName: Bip01 R Clavicle
+      position: {x: -0.0015914444, y: 3.576278e-11, z: -0.0000000023536384}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000005, y: 1.0000005, z: 0.9999999}
+    - name: Bip01 R Forearm
+      parentName: Bip01 R UpperArm
+      position: {x: -0.0055021695, y: 0.0000000010371207, z: 7.4207784e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999964, y: 1.0000002, z: 1.0000004}
+    - name: Bip01 R Hand
+      parentName: Bip01 R Forearm
+      position: {x: -0.004311058, y: -0.0000000025749203, z: 2.8610225e-10}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 0.99999994, y: 1.0000005, z: 0.99999994}
+    - name: Bip01 R Finger0
+      parentName: Bip01 R Hand
+      position: {x: 0.00018616949, y: 0.00009779127, z: 0.00047777666}
+      rotation: {x: 0, y: 0.38268346, z: 0, w: 0.9238795}
+      scale: {x: 0.9999999, y: 1.0000004, z: 1.0000006}
+    - name: Bip01 R Finger01
+      parentName: Bip01 R Finger0
+      position: {x: -0.0011784043, y: 6.4373007e-10, z: -2.5033947e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000013}
+    - name: Bip01 R Finger02
+      parentName: Bip01 R Finger01
+      position: {x: -0.0008337729, y: 0.0000000017881391, z: 3.576278e-11}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 0.99999976}
+    - name: Bip01 R Finger02_end
+      parentName: Bip01 R Finger02
+      position: {x: -0, y: 0.000057744386, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01 R Finger1
+      parentName: Bip01 R Hand
+      position: {x: -0.0015739931, y: 0.000010446131, z: 0.0007552007}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Bip01 R Finger11
+      parentName: Bip01 R Finger1
+      position: {x: -0.0018939739, y: 0.0000000014305115, z: 9.1195107e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1.0000006, z: 1.0000006}
+    - name: Bip01 R Finger11_end
+      parentName: Bip01 R Finger11
+      position: {x: -0, y: 0.000057744535, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01 R Finger2
+      parentName: Bip01 R Hand
+      position: {x: -0.0016810757, y: -0.00002632699, z: 0.00010321668}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000008, y: 1.0000004, z: 1.0000001}
+    - name: Bip01 R Finger21
+      parentName: Bip01 R Finger2
+      position: {x: -0.0013598447, y: 0.0000000015735626, z: -0.0000000014305115}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999994, y: 1, z: 0.9999998}
+    - name: Bip01 R Finger21_end
+      parentName: Bip01 R Finger21
+      position: {x: -0, y: 0.000057744477, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01 R Finger3
+      parentName: Bip01 R Hand
+      position: {x: -0.0016302185, y: -0.0000032437558, z: -0.0004908706}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000008, y: 1.0000004, z: 1}
+    - name: Bip01 R Finger31
+      parentName: Bip01 R Finger3
+      position: {x: -0.0013870063, y: 1.4305113e-10, z: -0.0000000034332273}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999996, y: 1, z: 1.0000001}
+    - name: Bip01 R Finger31_end
+      parentName: Bip01 R Finger31
+      position: {x: -0, y: 0.000057744455, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bip01 Head
+      parentName: Bip01 Neck
+      position: {x: -0.0005564501, y: 2.1234152e-10, z: -7.683411e-12}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000002}
+    - name: Bip01 Head_end
+      parentName: Bip01 Head
+      position: {x: -0, y: 0.000057744503, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.03
+    rootMotionBoneName: 
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

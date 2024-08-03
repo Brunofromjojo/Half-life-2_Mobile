@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Scenes/ZM_Map01/Coast.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
