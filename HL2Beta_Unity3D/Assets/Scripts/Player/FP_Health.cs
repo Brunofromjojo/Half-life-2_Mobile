@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
@@ -25,19 +24,16 @@ public class FP_Health : MonoBehaviour
         healthtext.text = m_life.ToString();
     }
 
-    //Reduce the player’s life and update the UI interface
+    // Reduce the player's life and update the UI interface
     public void OnDamage(int damage)
     {
-        if (Godmode == false)
+        if (!Godmode)
         {
             m_life -= damage;
 
             if (m_life < 50)
-            {
                 PlayAudioEffect(WarningSound);
-            }
 
-            // If hp is 0, unlock mouse display
             if (m_life <= 0)
             {
                 Cursor.visible = false;
