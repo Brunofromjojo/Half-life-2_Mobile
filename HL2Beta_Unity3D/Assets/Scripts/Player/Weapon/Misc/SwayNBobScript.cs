@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SwayNBobScript : MonoBehaviour
@@ -21,13 +20,12 @@ public class SwayNBobScript : MonoBehaviour
 
     [Header("Bobbing")]
     public float speedCurve;
-    float curveSin { get => Mathf.Sin(speedCurve); }
-    float curveCos { get => Mathf.Cos(speedCurve); }
+    float curveSin => Mathf.Sin(speedCurve);
+    float curveCos => Mathf.Cos(speedCurve);
 
     public Vector3 travelLimit = Vector3.one * 0.025f;
     public Vector3 bobLimit = Vector3.one * 0.01f;
     Vector3 bobPosition;
-
     public float bobExaggeration;
 
     [Header("Bob Rotation")]
@@ -37,55 +35,43 @@ public class SwayNBobScript : MonoBehaviour
     [Header("Mobile Input")]
     [SerializeField] public FP_CameraLook playerLook;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
     void Update()
     {
         GetInput();
-
         Sway();
         SwayRotation();
         BobOffset();
         BobRotation();
-
         CompositePositionRotation();
     }
-
 
     Vector2 walkInput;
     Vector2 lookInput;
 
     void GetInput()
     {
-        walkInput.x = mover.velocity.x;
-        walkInput.y = mover.velocity.z;
-        walkInput = walkInput.normalized;
-
-        lookInput.x = playerLook.InputX;
-        lookInput.y = playerLook.InputY;
+        walkInput = new Vector2(mover.velocity.x, mover.velocity.z).normalized;
+        lookInput = new Vector2(playerLook.InputX, playerLook.InputY);
     }
-
 
     void Sway()
     {
         Vector3 invertLook = lookInput * -step;
-        invertLook.x = Mathf.Clamp(invertLook.x, -maxStepDistance, maxStepDistance);
-        invertLook.y = Mathf.Clamp(invertLook.y, -maxStepDistance, maxStepDistance);
-
-        swayPos = invertLook;
+        swayPos = new Vector3(
+            Mathf.Clamp(invertLook.x, -maxStepDistance, maxStepDistance),
+            Mathf.Clamp(invertLook.y, -maxStepDistance, maxStepDistance),
+            0
+        );
     }
 
     void SwayRotation()
     {
         Vector2 invertLook = lookInput * -rotationStep;
-        invertLook.x = Mathf.Clamp(invertLook.x, -maxRotationStep, maxRotationStep);
-        invertLook.y = Mathf.Clamp(invertLook.y, -maxRotationStep, maxRotationStep);
-        swayEulerRot = new Vector3(invertLook.y, invertLook.x, invertLook.x);
+        swayEulerRot = new Vector3(
+            Mathf.Clamp(invertLook.y, -maxRotationStep, maxRotationStep),
+            Mathf.Clamp(invertLook.x, -maxRotationStep, maxRotationStep),
+            invertLook.x
+        );
     }
 
     void CompositePositionRotation()
@@ -97,19 +83,19 @@ public class SwayNBobScript : MonoBehaviour
     void BobOffset()
     {
         speedCurve += Time.deltaTime * (mover.isGrounded ? (Input.GetAxis("Horizontal") + Input.GetAxis("Vertical")) * bobExaggeration : 1f) + 0.01f;
-
-        bobPosition.x = (curveCos * bobLimit.x * (mover.isGrounded ? 1 : 0)) - (walkInput.x * travelLimit.x);
-        bobPosition.y = (curveSin * bobLimit.y) - (Input.GetAxis("Vertical") * travelLimit.y);
-        bobPosition.z = -(walkInput.y * travelLimit.z);
+        bobPosition = new Vector3(
+            (curveCos * bobLimit.x * (mover.isGrounded ? 1 : 0)) - (walkInput.x * travelLimit.x),
+            (curveSin * bobLimit.y) - (Input.GetAxis("Vertical") * travelLimit.y),
+            -(walkInput.y * travelLimit.z)
+        );
     }
 
     void BobRotation()
     {
-        bobEulerRotation.x = (walkInput != Vector2.zero ? multiplier.x * (Mathf.Sin(2 * speedCurve)) : multiplier.x * (Mathf.Sin(2 * speedCurve) / 2));
-        bobEulerRotation.y = (walkInput != Vector2.zero ? multiplier.y * curveCos : 0);
-        bobEulerRotation.z = (walkInput != Vector2.zero ? multiplier.z * curveCos * walkInput.x : 0);
+        bobEulerRotation = new Vector3(
+            (walkInput != Vector2.zero ? multiplier.x * Mathf.Sin(2 * speedCurve) : multiplier.x * (Mathf.Sin(2 * speedCurve) / 2)),
+            (walkInput != Vector2.zero ? multiplier.y * curveCos : 0),
+            (walkInput != Vector2.zero ? multiplier.z * curveCos * walkInput.x : 0)
+        );
     }
-
 }
-
-
