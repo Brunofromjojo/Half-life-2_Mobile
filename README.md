@@ -3,5 +3,7 @@
 
 My youtube:
 https://www.youtube.com/@HL2BetaMobile
+My VK:
+https://vk.com/hl2betaunity
  
 ![Screenshot_hl2](https://sun9-48.userapi.com/impg/F6-BSHSxvosBt7aX0lP_snueVKm1mB6hc5PDOw/xslX08-_fl0.jpg?size=1080x607&quality=95&sign=d86a0b0b28f6967084306f354ebf9833&type=album)
